@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Tables</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <main>
+            <header>
+                <h1>HTML Tables Cheatsheet</h1>
+            </header>
+            <!-- Property Section -->
+            <div class="property">
+                <h2>Table Properties</h2>
+                <table class="property-table">
+                    <thead class="property-head">
+                        <tr>
+                            <th scope="col">Property</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody class="property-body">
+                        <tr>
+                            <td><code>&lt;table&gt;</code></td>
+                            <td>Table</td>
+                            <td>The wrapper element for all HTML tables</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;thead&gt;</code></td>
+                            <td>Table Head</td>
+                            <td>The set of rows defining the column headers in a table</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;tbody&gt;</code></td>
+                            <td>Table Body</td>
+                            <td>The set of rows containing actual table data</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;tfoot&gt;</code></td>
+                            <td>Table Footer</td>
+                            <td>The set of rows defining the footer in a table</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;tr&gt;</code></td>
+                            <td>Table Row</td>
+                            <td>Defines a row of cells in a table</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;td&gt;</code></td>
+                            <td>Table Data</td>
+                            <td>Defines a cell in a table that contains data</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;th&gt;</code></td>
+                            <td>Table Header</td>
+                            <td>Defines a cell as the header of a group of table cells</td>
+                        </tr>
+                    </tbody>
+                    <tfoot class="property-footer">
+                        <tr>
+                            <td colspan="3">Learn more on <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics" target="_blank">MDN Documentation</a></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <br>
+            <!-- Attributes Section -->
+            <div class="attributes">
+                <h2>Table Attributes</h2>
+                <table class="attributes-table">
+                    <thead class="attributes-head">
+                        <tr>
+                            <th scope="col">Attribute</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody class="attributes-body">
+                        <tr>
+                            <td><code>colspan</code></td>
+                            <td>Column Span</td>
+                            <td>Defines how many columns a td element should span</td>
+                        </tr>
+                        <tr>
+                            <td><code>rowspan</code></td>
+                            <td>Row Span</td>
+                            <td>Defines how many rows a td element should span</td>
+                        </tr>
+                        <tr>
+                            <td><code>scope</code></td>
+                            <td>Scope</td>
+                            <td>Indicates the scope of a th cell</td>
+                        </tr>
+                    </tbody>
+                    <tfoot class="attributes-footer">
+                        <tr>
+                            <td colspan="3">Learn more on <a href="" target="_blank">MDN Documentation</a></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </main>
+    </body>
+</html>
